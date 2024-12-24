@@ -1,8 +1,8 @@
 {
   "name": "port2024",
-  "homepage": "https://kimjavan.github.io/port2024/",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kimjavan.github.io/port2024/",
   "dependencies": {
     "cra-template": "1.2.0",
     "react": "^19.0.0",

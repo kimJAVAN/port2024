@@ -4,7 +4,7 @@ import Popol from '../Popol/Popol.js';
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Routes>
           <Route path='/' element={<Main />} />
