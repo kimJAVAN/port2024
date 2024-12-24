@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/kimJAVAN/port2024.git/static/css/main.f855e6bc.css",
-    "main.js": "/kimJAVAN/port2024.git/static/js/main.a68414a2.js",
-    "static/js/488.591e83d6.chunk.js": "/kimJAVAN/port2024.git/static/js/488.591e83d6.chunk.js",
-    "static/media/logo.svg": "/kimJAVAN/port2024.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/kimJAVAN/port2024.git/index.html",
-    "main.f855e6bc.css.map": "/kimJAVAN/port2024.git/static/css/main.f855e6bc.css.map",
-    "main.a68414a2.js.map": "/kimJAVAN/port2024.git/static/js/main.a68414a2.js.map",
-    "488.591e83d6.chunk.js.map": "/kimJAVAN/port2024.git/static/js/488.591e83d6.chunk.js.map"
+    "main.css": "/port2024/static/css/main.f855e6bc.css",
+    "main.js": "/port2024/static/js/main.3825e96d.js",
+    "static/js/488.591e83d6.chunk.js": "/port2024/static/js/488.591e83d6.chunk.js",
+    "static/media/logo.svg": "/port2024/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/port2024/index.html",
+    "main.f855e6bc.css.map": "/port2024/static/css/main.f855e6bc.css.map",
+    "main.3825e96d.js.map": "/port2024/static/js/main.3825e96d.js.map",
+    "488.591e83d6.chunk.js.map": "/port2024/static/js/488.591e83d6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.a68414a2.js"
+    "static/js/main.3825e96d.js"
   ]
 }
