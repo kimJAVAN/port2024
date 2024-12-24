@@ -1,5 +1,6 @@
 {
   "name": "port2024",
+  "homepage": "https://github.com/kimJAVAN/port2024.git/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
