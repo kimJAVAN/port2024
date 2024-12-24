@@ -1,0 +1,48 @@
+.main-popol-wrap{
+    background-color: #222;
+    color: white;
+    padding : 120px 20px;
+}
+
+.main-popol-wrap .popol-btn-wrap{
+    display: flex;
+    cursor:s pointer;
+    font-size: 14px;
+    gap : 10px;
+    margin-bottom: 20px;
+}
+
+.main-popol-wrap .popol-btn-wrap .popol-btn{
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.main-popol-wrap .popol-btn-wrap .popol-btn p{
+    margin : 5px 10px;
+}
+
+.main-popol-wrap .popol-unit-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    /* gap: 10px; */
+    justify-content: space-between;
+}
+.main-popol-wrap .popol-unit-div{
+    width: calc(25% - 40px);
+    border-radius: 15px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.main-popol-wrap .front-index-wrap{
+    display: flex;
+}
+.main-popol-wrap .front-index{
+    border: 1px solid white;
+    border-radius: 15px;
+    font-size: 14px;
+    gap : 10px;
+    cursor:s pointer;
+}
+.main-popol-wrap .front-inner-text{
+    font-size: 14px;
+    margin : 5px 10px;
+}
