@@ -1,9 +1,12 @@
+import Contact from '../Contact/Contact';
+import Intro from '../Intro/Intro';
 import './Main.css'
 
 function Main() {
   return (
     <div>
-      <h1>메인입니다</h1>
+      <Intro />
+      <Contact />
     </div>
   );
 }
