@@ -21,9 +21,9 @@ function Contact() {
         <div className='my-page-wrap'>
           <NavLink to='https://github.com/kimJAVAN' className={'page-link'}>
             <div className='my-page-unit'>
-              <div className='my-page-logo-wrap'>
+              {/* <div className='my-page-logo-wrap'>
                 <img src='/image/git.png' alt='github' />
-              </div>
+              </div> */}
               <p>GITHUB</p>
             </div>
           </NavLink>

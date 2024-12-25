@@ -4,9 +4,14 @@ function Popol() {
   return (
     <div>
       <div className='main-popol-wrap'>
-
+        <div>
+          <p className='popol-title'>Portfolio</p>
+        </div>
         {/* 네비바 */}
         <div className='popol-btn-wrap'>
+          <div className='popol-btn'>
+            <p>All</p>
+          </div>
           <div className='popol-btn'>
             <p>React</p>
           </div>
@@ -47,7 +52,7 @@ function Popol() {
 
             </div>
           </div>
-
+          
         </div>
       </div>
     </div>

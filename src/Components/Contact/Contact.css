@@ -1,0 +1,82 @@
+.contact-and-my-detail{
+    background-color: #222;
+    color: white;
+    width: 100%;
+}
+
+.contact-and-my-detail .contact-top-wrap{
+    width: 100%;
+    border-bottom: 1px solid white;
+}
+.contact-and-my-detail .my-page-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
+}
+.contact-and-my-detail .my-page-wrap a{
+    color: white;
+    text-decoration: none;
+    width: 50%;
+    height: 100%;
+}
+.contact-and-my-detail .my-page-unit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 60px;
+    font-weight: bold;
+    min-height: 130px;
+}
+.contact-and-my-detail .my-page-unit:nth-of-type(1){
+    border-right: 1px solid white;
+}
+
+.contact-and-my-detail .cont-us-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-and-my-detail .top-email-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+}
+.contact-and-my-detail .top-email-div p{
+    margin: 0;
+}
+.contact-and-my-detail .top-email-div .email-title-text{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.contact-and-my-detail .top-email-div .email-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact-and-my-detail .email-copy-text{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+    align-items: center;
+}
+.contact-and-my-detail .copy-btn{
+    border: 1px solid white;
+    background: #222;
+    color: white;
+    font-size: 12px;
+    height: 30px;
+    padding :0px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.contact-and-my-detail .copy-btn:hover{
+   background: white;
+   color: black; 
+}
