@@ -1,14 +1,22 @@
 .main-popol-wrap{
     background-color: #222;
     color: white;
-    padding : 100px 60px;
+    padding : 100px 0px;
     border-bottom: 1px solid white;
     /* border-top: 1px solid white; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    position: relative;
 }
 
 .main-popol-wrap .popol-title{
     font-size: 32px ;
-    font-weight: bold
+    font-weight: bold;
+    margin-bottom : 20px;
 }
 
 .main-popol-wrap .popol-btn-wrap{
@@ -16,13 +24,17 @@
     cursor:s pointer;
     font-size: 12px;
     gap : 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .main-popol-wrap .popol-btn-wrap .popol-btn{
     border: 1px solid white;
     border-radius: 15px;
     cursor: pointer;
+}
+.main-popol-wrap .popol-btn-wrap .popol-btn.active{
+    background-color: white;
+    color: black;
 }
 .main-popol-wrap .popol-btn-wrap .popol-btn p{
     margin : 5px 10px;
@@ -33,17 +45,21 @@
     flex-wrap: wrap;
     /* gap: 10px; */
     justify-content: space-between;
+
+    width: 50%;
 }
 .main-popol-wrap .popol-unit-div{
-    width: calc(25% - 40px);
-    border-radius: 15px;
+    width: 27%;
+    border-radius: 10px;
     border: 1px solid white;
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 .main-popol-wrap .front-index-wrap{
     display: flex;
-    gap: 10px;
+    gap: 5px;
+    flex-wrap: wrap;
 }
 .main-popol-wrap .front-index{
     background: rgba(255,255,255,0.2);
@@ -56,4 +72,90 @@
 .main-popol-wrap .front-inner-text{
     font-size: 12px;
     margin : 5px 10px;
+}
+
+.main-popol-wrap .popol-unit-front-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-popol-wrap .po-title-text{
+    font-size: 18px;
+    font-weight: bold;
+}
+.main-popol-wrap .po-context-text{
+    color: rgba(255, 255,255,0.5);
+    font-size: 14px;
+}
+
+.main-popol-wrap .more-view-context{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 10;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-popol-wrap .top-title-and-close-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-bottom: 30px;
+}
+.main-popol-wrap .close-btn{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+.main-popol-wrap .more-scroll-div{
+    width: 35%;
+    height: 80%;
+    overflow-y: scroll;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    padding: 30px;
+}
+.main-popol-wrap .more-view-context .po-more-title{
+    font-size: 28px;
+    font-weight: 500;
+    width: 45%;
+    white-space: keep-all;
+}
+
+.main-popol-wrap .center-context-wrap{
+    border-bottom: 1px solid rgb(190, 190, 190);
+}
+.main-popol-wrap .center-context-title{
+    color: grey;
+    font-size: 14px;
+}
+.main-popol-wrap .center-context{
+    width: 60%;
+    white-space: keep-all;
+}
+.main-popol-wrap .center-unit{
+    margin-bottom: 20px;
+}
+.main-popol-wrap .center-btm-unit-wrap{
+    display: flex;
+}
+.main-popol-wrap .center-btm-unit-wrap .center-unit{
+    width: 30%;
+}
+
+.main-popol-wrap .btm-big-title{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.main-popol-wrap .btm-sul-unit{
+    margin-bottom: 20px;
 }
