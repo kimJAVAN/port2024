@@ -1,4 +1,7 @@
+import React, { useEffect } from "react";
+
 import './History.css';
+import AOS from "aos";
 
 const histories = [
   {
@@ -34,16 +37,21 @@ const histories = [
 ];
 
 function History() {
+
+  useEffect(() => {
+    AOS.init();
+  },[])
+  
   return (
     <div className='my-his-page'>
-      <p className='mini-title'>경력, 학력사항</p>
-      <p className='big-title'>
+      <p className='mini-title' data-aos="fade-up">경력, 학력사항</p>
+      <p className='big-title' data-aos="fade-up">
         다양한 UI 디자인의 구현 경험이 있으며,<br />
         REST API통신을 통해 기능을 구현할 수 있습니다.
       </p>
       <div className='my-his-wrap'>
         {histories.map((history, index) => (
-          <div className='my-his-unit' key={index}>
+          <div className='my-his-unit' key={index} data-aos="fade-up">
             <p className='what-title'>
               {history.what === 'work' ? '경력' : ''}
               {history.what === 'school' ? '학력' : ''}
