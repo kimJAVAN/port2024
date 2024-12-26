@@ -66,6 +66,172 @@ function Popol() {
       ]
     },
 
+    // 사내 기본 개발 틀 제작
+    {
+      index : 'company',
+      title: "사내 기본 개발 틀 제작",
+      description: "사내 기본 개발 틀을 구축하여 개발 환경의 표준화 및 작업 효율성을 향상",
+      techStack: ['React','Node.js','Html', "CSS", "JavaScript"],
+      projectDescription: "사내의 기본 개발 틀을 제작하여 개발 환경과 프로세스의 표준화 및 일관성을 확보하고, 이를 통해 작업 효율성을 대폭 향상시켰습니다. 프로젝트 구조와 코드 작성 규칙을 정의하고, 자동화 도구 및 라이브러리 세팅을 통해 개발자의 반복적인 작업을 줄였으며, 팀원 간 협업을 최적화하는 기반을 마련했습니다.",
+      techUsed: "Html, CSS, JavaScript",
+      participants: "3명(FE3, BE2)",
+      period: "2024.06 ~ 2024.09",
+      link: "",
+      linkDescription: "",
+      details: [
+        {
+          title: "1. 기본 개발 틀 제작 및 표준화",
+          items: [
+            "React를 활용한 프론트엔드 개발 틀을 제작하여 개발 환경의 표준화 및 일관성 확보",
+            "프로젝트 구조와 코드 작성 규칙을 정의하고, 자동화 도구 및 라이브러리 세팅을 통해 효율성 증대",
+            "파일 구조를 명확히 하여 팀원들이 전체 코드를 파악하지 않고도 쉽게 작업할 수 있도록 설계",
+            "기존 규칙을 유지하면서 더 나은 방향으로 개선할 수 있는 방안을 논의하고, 불편했던 규칙을 개선하여 효율적인 작업 환경을 마련"
+          ]
+        },
+        {
+          title: "2. Node.js 백엔드 참여 및 최적화",
+          items: [
+            "Node.js를 사용해 기본 CRUD 작업 및 간단한 게시판 기능을 개발",
+            "불필요한 데이터가 전달되지 않도록 백엔드 로직을 최적화하여 프론트엔드의 화면 로딩 시간을 단축",
+            "기존의 백엔드 로직에서 발생한 불편한 점들을 개선하고, 이를 통해 팀원들과 협업을 통해 더 나은 방향으로 시스템을 개선"
+          ]
+        }
+      ]
+      
+    },
+
+    // 개발 블로그 운영
+    {
+      index : 'personal',
+      title: "개발 블로그 운영",
+      description: "개발을 공부하거나 작업을 마무리 한 후 복기할 때 블로그에 작성함",
+      techStack: [ 'Html', "CSS","JavaScript", "React", 'Node.js'],
+      projectDescription: "개발 공부나 작업을 마친 후 복기하여 블로그에 작성하는 습관을 가지고 있습니다. 이를 통해 자신의 학습을 정리하고, 다른 사람들과 지식을 공유하는 방식으로 지속적인 자기 개선을 추구합니다.",
+      techUsed: " React, Node.js, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2023.08 ~",
+      link: "https://fron-end-note.tistory.com/",
+      linkDescription: "블로그",
+      details: [
+        {
+          title: "1. 블로그를 통한 개발 학습 및 정보 공유",
+          items: [
+            "개발 블로그를 작성하며 학습한 내용을 정리하고 기록",
+            "자주 사용하는 정보나 기억이 잘 나지 않는 부분을 블로그에 기록해 두고, 동료들과 공유하여 효율적인 시간 관리 및 코드 재사용"
+          ]
+        }
+      ]
+      
+    },
+
+    // 사내 사이트1
+    {
+      index : 'company',
+      title: "회사 소개 사이트1",
+      description: "디자이너의 피그마를 바탕으로 회사 소개 사이트 제작",
+      techStack: ["React",'Html',"CSS", "JavaScript"],
+      projectDescription: "디자이너가 제작한 Figma 디자인과 UI/UX 설계를 바탕으로 회사의 소개를 하는 웹사이트를 구현했습니다.",
+      techUsed: "React, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2024.07 ~ 2024.08",
+      link: "https://chalixsub.2spsample4.shop/4",
+      linkDescription: "사이트",
+      details: [
+        { title: "1. Figma 디자인 기반 구현", 
+          items: [
+            "디자이너가 제작한 Figma 디자인을 바탕으로 웹사이트를 개발하여 시각적 요소와 인터렉션을 충실히 반영"] 
+          },
+          { title: "2. UI/UX 설계 반영", 
+            items: [
+              "UI/UX 설계의 사용자 경험을 이해하고, 이를 실제 웹 환경에서 직관적이고 사용하기 편리한 형태로 구현",
+              "사용자의 더 나은 경험을 위해 의견을 적극 제시하고 반영"] 
+            },
+            { title: "3. 디자이너와의 협업", 
+              items: [
+                "디자인 의도를 충실히 구현하기 위해 디자이너와 긴밀히 소통하며 프로젝트 진행",
+              '불필요한 재작업을 줄이고, Figma 프로토타입과 CSS 및 레이아웃 구현 단계에서 효율성을 극대화하여 개발 시간을 단축. Design-to-Code 작업의 정확성을 높이고 커뮤니케이션 병목 현상을 최소화.'] 
+              },
+              { title: "4. 최적화와 호환성", 
+                items: [
+                  "웹사이트의 성능 최적화와 브라우저 간 호환성을 고려하여 높은 품질의 결과물을 완성.",
+                  "PC/MOBILE/TABLET 전체 기기에 맞춰 디자이너가 구성한 레이아웃이 망가지지 않도록 개발."
+                ] 
+                }
+      ]
+    },
+
+    // 사내 사이트2
+    {
+      index : 'company',
+      title: "회사 소개 사이트2",
+      description: "디자이너의 피그마를 바탕으로 회사 소개 사이트 제작",
+      techStack: ["PHP",'Html',"CSS", "JavaScript"],
+      projectDescription: "디자이너가 제작한 Figma 디자인과 UI/UX 설계를 바탕으로 회사의 소개를 하는 웹사이트를 구현했습니다.",
+      techUsed: "PHP, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2023.08 ~ 2023.10",
+      link: "https://anipearl.com/",
+      linkDescription: "사이트",
+      details: [
+        { title: "1. Figma 디자인 기반 구현", 
+          items: [
+            "디자이너가 제작한 Figma 디자인을 바탕으로 웹사이트를 개발하여 시각적 요소와 인터렉션을 충실히 반영"] 
+          },
+          { title: "2. UI/UX 설계 반영", 
+            items: [
+              "UI/UX 설계의 사용자 경험을 이해하고, 이를 실제 웹 환경에서 직관적이고 사용하기 편리한 형태로 구현",
+              "사용자의 더 나은 경험을 위해 의견을 적극 제시하고 반영"] 
+            },
+            { title: "3. 디자이너와의 협업", 
+              items: [
+                "디자인 의도를 충실히 구현하기 위해 디자이너와 긴밀히 소통하며 프로젝트 진행",
+              '불필요한 재작업을 줄이고, Figma 프로토타입과 CSS 및 레이아웃 구현 단계에서 효율성을 극대화하여 개발 시간을 단축. Design-to-Code 작업의 정확성을 높이고 커뮤니케이션 병목 현상을 최소화.'] 
+              },
+              { title: "4. 최적화와 호환성", 
+                items: [
+                  "웹사이트의 성능 최적화와 브라우저 간 호환성을 고려하여 높은 품질의 결과물을 완성.",
+                  "PC/MOBILE/TABLET 전체 기기에 맞춰 디자이너가 구성한 레이아웃이 망가지지 않도록 개발."
+                ] 
+                }
+      ]
+    },
+
+    // 사내 사이트3
+    {
+      index : 'company',
+      title: "회사 소개 사이트3",
+      description: "디자이너의 피그마를 바탕으로 회사 소개 사이트 제작",
+      techStack: ["PHP",'Html',"CSS", "JavaScript"],
+      projectDescription: "디자이너가 제작한 Figma 디자인과 UI/UX 설계를 바탕으로 회사의 소개를 하는 웹사이트를 구현했습니다.",
+      techUsed: "PHP, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2023.10 ~ 2023.12",
+      link: "https://samples.hagunlab.com/main/dogmind/05/",
+      linkDescription: "사이트",
+      details: [
+        { title: "1. Figma 디자인 기반 구현", 
+          items: [
+            "디자이너가 제작한 Figma 디자인을 바탕으로 웹사이트를 개발하여 시각적 요소와 인터렉션을 충실히 반영"] 
+          },
+          { title: "2. UI/UX 설계 반영", 
+            items: [
+              "UI/UX 설계의 사용자 경험을 이해하고, 이를 실제 웹 환경에서 직관적이고 사용하기 편리한 형태로 구현",
+              "사용자의 더 나은 경험을 위해 의견을 적극 제시하고 반영"] 
+            },
+            { title: "3. 디자이너와의 협업", 
+              items: [
+                "디자인 의도를 충실히 구현하기 위해 디자이너와 긴밀히 소통하며 프로젝트 진행",
+              '불필요한 재작업을 줄이고, Figma 프로토타입과 CSS 및 레이아웃 구현 단계에서 효율성을 극대화하여 개발 시간을 단축. Design-to-Code 작업의 정확성을 높이고 커뮤니케이션 병목 현상을 최소화.'] 
+              },
+              { title: "4. 최적화와 호환성", 
+                items: [
+                  "웹사이트의 성능 최적화와 브라우저 간 호환성을 고려하여 높은 품질의 결과물을 완성.",
+                  "PC/MOBILE/TABLET 전체 기기에 맞춰 디자이너가 구성한 레이아웃이 망가지지 않도록 개발."
+                ] 
+                }
+      ]
+    },
+
     // 국민대학교
     {
       index : 'company',
@@ -100,40 +266,6 @@ function Popol() {
                 ] 
                 }
       ]
-    },
-
-    // 사내 기본 개발 틀 제작
-    {
-      index : 'company',
-      title: "사내 기본 개발 틀 제작",
-      description: "사내 기본 개발 틀을 구축하여 개발 환경의 표준화 및 작업 효율성을 향상",
-      techStack: ['React','Node.js','Html', "CSS", "JavaScript"],
-      projectDescription: "사내의 기본 개발 틀을 제작하여 개발 환경과 프로세스의 표준화 및 일관성을 확보하고, 이를 통해 작업 효율성을 대폭 향상시켰습니다. 프로젝트 구조와 코드 작성 규칙을 정의하고, 자동화 도구 및 라이브러리 세팅을 통해 개발자의 반복적인 작업을 줄였으며, 팀원 간 협업을 최적화하는 기반을 마련했습니다.",
-      techUsed: "Html, CSS, JavaScript",
-      participants: "3명(FE3, BE2)",
-      period: "2024.06 ~ 2024.09",
-      link: "",
-      linkDescription: "",
-      details: [
-        {
-          title: "1. 기본 개발 틀 제작 및 표준화",
-          items: [
-            "React를 활용한 프론트엔드 개발 틀을 제작하여 개발 환경의 표준화 및 일관성 확보",
-            "프로젝트 구조와 코드 작성 규칙을 정의하고, 자동화 도구 및 라이브러리 세팅을 통해 효율성 증대",
-            "파일 구조를 명확히 하여 팀원들이 전체 코드를 파악하지 않고도 쉽게 작업할 수 있도록 설계",
-            "기존 규칙을 유지하면서 더 나은 방향으로 개선할 수 있는 방안을 논의하고, 불편했던 규칙을 개선하여 효율적인 작업 환경을 마련"
-          ]
-        },
-        {
-          title: "2. Node.js 백엔드 참여 및 최적화",
-          items: [
-            "Node.js를 사용해 기본 CRUD 작업 및 간단한 게시판 기능을 개발",
-            "불필요한 데이터가 전달되지 않도록 백엔드 로직을 최적화하여 프론트엔드의 화면 로딩 시간을 단축",
-            "기존의 백엔드 로직에서 발생한 불편한 점들을 개선하고, 이를 통해 팀원들과 협업을 통해 더 나은 방향으로 시스템을 개선"
-          ]
-        }
-      ]
-      
     },
 
      //리디 클론코딩

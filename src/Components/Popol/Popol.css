@@ -142,6 +142,10 @@
     width: 60%;
     white-space: keep-all;
     word-break: keep-all; 
+    color: black;
+}
+.main-popol-wrap .center-context a{
+    color: black;
 }
 .main-popol-wrap .center-unit{
     margin-bottom: 20px;
