@@ -14,10 +14,13 @@ function Popol() {
   // 각 포트폴리오 항목의 상태와 더보기/닫기 기능을 관리하기 위한 상태
   const [viewVisible, setViewVisible] = useState(null);
 
+  const [filterType, setFilterType] = useState('all'); 
+
   // 각 포트폴리오 항목 데이터
   const portfolios = [
     // 쇼핑몰
     {
+      index : 'company',
       title: "React 기반 쇼핑몰 사이트 개발 및 유지보수",
       description: "쇼핑몰 사이트 개발 및 유지보수 업무. 3명의 프론트, 3명의 백엔드 개발자와 협업.",
       techStack: ["React", "Node.js", "REST API", "HTML", "CSS"],
@@ -65,6 +68,7 @@ function Popol() {
 
     // 국민대학교
     {
+      index : 'company',
       title: "2023 국민대학교 졸업전시",
       description: "디자이너의 피그마를 바탕으로 사이트 제작",
       techStack: ['Html',"CSS", "JavaScript", "PHP"],
@@ -100,6 +104,7 @@ function Popol() {
 
     // 사내 기본 개발 틀 제작
     {
+      index : 'company',
       title: "사내 기본 개발 틀 제작",
       description: "사내 기본 개발 틀을 구축하여 개발 환경의 표준화 및 작업 효율성을 향상",
       techStack: ['React','Node.js','Html', "CSS", "JavaScript"],
@@ -133,6 +138,7 @@ function Popol() {
 
      //리디 클론코딩
     {
+      index : 'personal',
       title: "RIDI 클론코딩",
       description: "기존의 사이트를 참고하여 화면을 구성",
       techStack: [ 'Html', "CSS","JavaScript","SCSS"],
@@ -164,6 +170,7 @@ function Popol() {
 
     //스팀 클론코딩
     {
+      index : 'personal',
       title: "STEAM 클론코딩",
       description: "기존의 사이트를 참고하여 화면을 구성",
       techStack: ['Html', "CSS", "JavaScript"],
@@ -195,6 +202,7 @@ function Popol() {
 
     // 사이트 리뉴얼
     {
+      index : 'personal',
       title: "기존 사이트 리뉴얼(마녀공방)",
       description: "기존 사이트를 리뉴얼하여 화면을 구성하고 제작",
       techStack: ["React", 'Html', "CSS", "JavaScript"],
@@ -228,29 +236,38 @@ function Popol() {
     setViewVisible(null);
   };
 
+  const filteredPortfolios = portfolios.filter(portfolio => {
+    if (filterType === 'all') return true;
+    return portfolio.index === filterType;
+  });
+
+  const handleFilterClick = (type) => {
+    setFilterType(type);
+  };
+
   return (
     <div>
       <div className='main-popol-wrap'>
         <div>
           <p className='popol-title' data-aos='fade-up'>포트폴리오</p>
         </div>
-        
+
         {/* 네비바 */}
         <div className='popol-btn-wrap' data-aos='fade-up'>
-          <div className='popol-btn active'>
+          <div className={`popol-btn ${filterType === 'all' ? 'active' : ''}`} onClick={() => handleFilterClick('all')}>
             <p>전체</p>
           </div>
-          <div className='popol-btn'>
+          <div className={`popol-btn ${filterType === 'company' ? 'active' : ''}`} onClick={() => handleFilterClick('company')}>
             <p>회사</p>
           </div>
-          <div className='popol-btn'>
+          <div className={`popol-btn ${filterType === 'personal' ? 'active' : ''}`} onClick={() => handleFilterClick('personal')}>
             <p>개인</p>
           </div>
         </div>
 
         {/* 포트폴리오 유닛 */}
         <div className='popol-unit-wrap'>
-          {portfolios.map((portfolio, index) => (
+          {filteredPortfolios.map((portfolio, index) => (
             <div key={index} className='popol-unit-div' data-aos='fade-in' onClick={() => handleUnitClick(index)}>
               <div className='popol-unit-front-text'>
                 <div className='po-title-text'>
@@ -277,7 +294,7 @@ function Popol() {
             <div className='more-scroll-div'>
               {/* 상단 */}
               <div className='top-title-and-close-wrap'>
-                <p className='po-more-title'>{portfolios[viewVisible].title}</p>
+                <p className='po-more-title'>{filteredPortfolios[viewVisible].title}</p>
                 <div className='close-btn' onClick={handleCloseClick}>
                   <GrClose />
                 </div>
@@ -290,7 +307,7 @@ function Popol() {
                     <p>프로젝트 설명</p>
                   </div>
                   <div className='center-context'>
-                    <p>{portfolios[viewVisible].projectDescription}</p>
+                    <p>{filteredPortfolios[viewVisible].projectDescription}</p>
                   </div>
                 </div>
                 <div className='center-unit'>
@@ -298,7 +315,7 @@ function Popol() {
                     <p>기술 스택</p>
                   </div>
                   <div className='center-context'>
-                    <p>{portfolios[viewVisible].techUsed}</p>
+                    <p>{filteredPortfolios[viewVisible].techUsed}</p>
                   </div>
                 </div>
                 <div className='center-btm-unit-wrap'>
@@ -307,7 +324,7 @@ function Popol() {
                       <p>참여인원</p>
                     </div>
                     <div className='center-context'>
-                      <p>{portfolios[viewVisible].participants}</p>
+                      <p>{filteredPortfolios[viewVisible].participants}</p>
                     </div>
                   </div>
                   <div className='center-unit'>
@@ -315,29 +332,29 @@ function Popol() {
                       <p>기간</p>
                     </div>
                     <div className='center-context'>
-                      <p>{portfolios[viewVisible].period}</p>
+                      <p>{filteredPortfolios[viewVisible].period}</p>
                     </div>
                   </div>
                   {/* 링크가 있을 경우에만 표시 */}
-                  {portfolios[viewVisible].link && portfolios[viewVisible].linkDescription && (
+                  {filteredPortfolios[viewVisible].link && filteredPortfolios[viewVisible].linkDescription && (
                     <div className='center-unit'>
                       <div className='center-context-title'>
                         <p>관련링크</p>
                       </div>
                       <div className='center-context'>
-                        <NavLink to={portfolios[viewVisible].link}>
-                          {portfolios[viewVisible].linkDescription}
+                        <NavLink to={filteredPortfolios[viewVisible].link}>
+                          {filteredPortfolios[viewVisible].linkDescription}
                         </NavLink>
                       </div>
                     </div>
                   )}
                 </div>
-              </div>  
+              </div>
 
               {/* 하단 */}
               <div className='btm-context-wrap'>
                 <p className='btm-big-title'>상세 내용</p>
-                {portfolios[viewVisible].details.map((detail, index) => (
+                {filteredPortfolios[viewVisible].details.map((detail, index) => (
                   <div key={index} className='btm-sul-unit'>
                     <p className='btm-sul-title'>{detail.title}</p>
                     <ul>
