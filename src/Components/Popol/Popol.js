@@ -124,6 +124,31 @@ function Popol() {
       
     },
 
+      // 건강 검진 바탕 분석 서비스
+      {
+        index : 'company',
+        title: "건강검진 바탕 건강 조언 서비스",
+        description: "사용자의 건강검진 결과를 바탕으로 더 건강해질 수 있는 법을 조언하는 페이지 개발",
+        techStack: [ 'Html', "CSS","JavaScript", "React", 'REAT API'],
+        projectDescription: "의료 전문가의 조언을 바탕으로 사용자의 건강검진 결과를 바탕으로 더 건강해 질 수 있는 법과 상품 추천, 그리고 어떠한 부분이 평균에 미치지 않는지를 알려주는 서비스를 개발함. ",
+        techUsed: " React, REST API, Html, CSS, JavaScript",
+        participants: "1명(FE1)",
+        period: "2024. 04 ~ 2024. 06",
+        link: "",
+        linkDescription: "",
+        details: [
+          {
+            "title": "1. 헬스케어 서비스 개발 경험",
+            "items": [
+              "건강검진 결과를 제공하는 API를 활용하여 사용자의 건강 개선을 돕는 서비스 및 페이지 제작",
+              "홈페이지에서 판매 중인 건강 관련 제품을 추가로 소개하거나 추천해주는 기능 구현",
+              "의학적 지식을 보유한 전문가들이 제공한 자료를 바탕으로 개발 진행",
+              "건강 데이터의 특정 수치가 기준을 초과하거나 미달한 경우 평균 정보를 제공하는 기능 포함"
+            ]
+          }
+        ]
+      },
+
     // 사내 사이트1
     {
       index : 'company',
