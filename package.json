@@ -1,8 +1,8 @@
 {
-  "name": "port2025",
+  "name": "port2024",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kimjavan.github.io/port2025/",
+  "homepage": "https://kimjavan.github.io/port2024/",
   "dependencies": {
     "aos": "^2.3.4",
     "cra-template": "1.2.0",
