@@ -334,7 +334,7 @@ function Popol() {
       techUsed: "PHP, Html, CSS, JavaScript",
       participants: "1명(FE1)",
       period: "2023.08 ~ 2023.10",
-      link: "https://anipearl.com/",
+      link: "https://samples.hagunlab.com/test/231010/bom01/",
       linkDescription: "사이트",
       details: [
         { title: "1. Figma 디자인 기반 구현", 
@@ -371,6 +371,114 @@ function Popol() {
       participants: "1명(FE1)",
       period: "2023.10 ~ 2023.12",
       link: "https://samples.hagunlab.com/main/dogmind/05/",
+      linkDescription: "사이트",
+      details: [
+        { title: "1. Figma 디자인 기반 구현", 
+          items: [
+            "디자이너가 제작한 Figma 디자인을 바탕으로 웹사이트를 개발하여 시각적 요소와 인터렉션을 충실히 반영"] 
+          },
+          { title: "2. UI/UX 설계 반영", 
+            items: [
+              "UI/UX 설계의 사용자 경험을 이해하고, 이를 실제 웹 환경에서 직관적이고 사용하기 편리한 형태로 구현",
+              "사용자의 더 나은 경험을 위해 의견을 적극 제시하고 반영"] 
+            },
+            { title: "3. 디자이너와의 협업", 
+              items: [
+                "디자인 의도를 충실히 구현하기 위해 디자이너와 긴밀히 소통하며 프로젝트 진행",
+              '불필요한 재작업을 줄이고, Figma 프로토타입과 CSS 및 레이아웃 구현 단계에서 효율성을 극대화하여 개발 시간을 단축. Design-to-Code 작업의 정확성을 높이고 커뮤니케이션 병목 현상을 최소화.'] 
+              },
+              { title: "4. 최적화와 호환성", 
+                items: [
+                  "웹사이트의 성능 최적화와 브라우저 간 호환성을 고려하여 높은 품질의 결과물을 완성.",
+                  "PC/MOBILE/TABLET 전체 기기에 맞춰 디자이너가 구성한 레이아웃이 망가지지 않도록 개발."
+                ] 
+                }
+      ]
+    },
+
+        // 사내 사이트4
+    {
+      index : 'company',
+      title: "회사 소개 사이트3",
+      description: "디자이너의 피그마를 바탕으로 회사 소개 사이트 제작",
+      techStack: ["PHP",'Html',"CSS", "JavaScript"],
+      projectDescription: "디자이너가 제작한 Figma 디자인과 UI/UX 설계를 바탕으로 회사의 소개를 하는 웹사이트를 구현했습니다.",
+      techUsed: "PHP, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2023.08 ~ 2023.10",
+      link: "https://samples.hagunlab.com/test/231010/semu01/",
+      linkDescription: "사이트",
+      details: [
+        { title: "1. Figma 디자인 기반 구현", 
+          items: [
+            "디자이너가 제작한 Figma 디자인을 바탕으로 웹사이트를 개발하여 시각적 요소와 인터렉션을 충실히 반영"] 
+          },
+          { title: "2. UI/UX 설계 반영", 
+            items: [
+              "UI/UX 설계의 사용자 경험을 이해하고, 이를 실제 웹 환경에서 직관적이고 사용하기 편리한 형태로 구현",
+              "사용자의 더 나은 경험을 위해 의견을 적극 제시하고 반영"] 
+            },
+            { title: "3. 디자이너와의 협업", 
+              items: [
+                "디자인 의도를 충실히 구현하기 위해 디자이너와 긴밀히 소통하며 프로젝트 진행",
+              '불필요한 재작업을 줄이고, Figma 프로토타입과 CSS 및 레이아웃 구현 단계에서 효율성을 극대화하여 개발 시간을 단축. Design-to-Code 작업의 정확성을 높이고 커뮤니케이션 병목 현상을 최소화.'] 
+              },
+              { title: "4. 최적화와 호환성", 
+                items: [
+                  "웹사이트의 성능 최적화와 브라우저 간 호환성을 고려하여 높은 품질의 결과물을 완성.",
+                  "PC/MOBILE/TABLET 전체 기기에 맞춰 디자이너가 구성한 레이아웃이 망가지지 않도록 개발."
+                ] 
+                }
+      ]
+    },
+
+    // 사내 사이트5
+    {
+      index : 'company',
+      title: "회사 소개 사이트4",
+      description: "디자이너의 피그마를 바탕으로 회사 소개 사이트 제작",
+      techStack: ["PHP",'Html',"CSS", "JavaScript"],
+      projectDescription: "디자이너가 제작한 Figma 디자인과 UI/UX 설계를 바탕으로 회사의 소개를 하는 웹사이트를 구현했습니다.",
+      techUsed: "PHP, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2024.03 ~ 2024.05",
+      link: "https://kumtax.com/",
+      linkDescription: "사이트",
+      details: [
+        { title: "1. Figma 디자인 기반 구현", 
+          items: [
+            "디자이너가 제작한 Figma 디자인을 바탕으로 웹사이트를 개발하여 시각적 요소와 인터렉션을 충실히 반영"] 
+          },
+          { title: "2. UI/UX 설계 반영", 
+            items: [
+              "UI/UX 설계의 사용자 경험을 이해하고, 이를 실제 웹 환경에서 직관적이고 사용하기 편리한 형태로 구현",
+              "사용자의 더 나은 경험을 위해 의견을 적극 제시하고 반영"] 
+            },
+            { title: "3. 디자이너와의 협업", 
+              items: [
+                "디자인 의도를 충실히 구현하기 위해 디자이너와 긴밀히 소통하며 프로젝트 진행",
+              '불필요한 재작업을 줄이고, Figma 프로토타입과 CSS 및 레이아웃 구현 단계에서 효율성을 극대화하여 개발 시간을 단축. Design-to-Code 작업의 정확성을 높이고 커뮤니케이션 병목 현상을 최소화.'] 
+              },
+              { title: "4. 최적화와 호환성", 
+                items: [
+                  "웹사이트의 성능 최적화와 브라우저 간 호환성을 고려하여 높은 품질의 결과물을 완성.",
+                  "PC/MOBILE/TABLET 전체 기기에 맞춰 디자이너가 구성한 레이아웃이 망가지지 않도록 개발."
+                ] 
+                }
+      ]
+    },
+
+        // 사내 사이트6
+    {
+      index : 'company',
+      title: "회사 소개 사이트5",
+      description: "디자이너의 피그마를 바탕으로 회사 소개 사이트 제작",
+      techStack: ["PHP",'Html',"CSS", "JavaScript"],
+      projectDescription: "디자이너가 제작한 Figma 디자인과 UI/UX 설계를 바탕으로 회사의 소개를 하는 웹사이트를 구현했습니다.",
+      techUsed: "PHP, Html, CSS, JavaScript",
+      participants: "1명(FE1)",
+      period: "2023.12 ~ 2024.02",
+      link: "https://historynarae.com/",
       linkDescription: "사이트",
       details: [
         { title: "1. Figma 디자인 기반 구현", 
